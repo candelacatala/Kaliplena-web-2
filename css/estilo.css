@@ -1,0 +1,252 @@
+body {
+  background-color: white;
+}
+
+.navegador {
+  position: relative;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  transition: 0.7s;
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+  padding: 5px 5px;
+}
+
+.navbar {
+  font-size: 20px;
+  font-family: "Kumbh Sans", sans-serif;
+  position: relative;
+  overflow: visible;
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+.navbar li {
+  margin: 10px;
+}
+.navbar a {
+  color: white;
+  padding: 5px;
+}
+.navbar a:hover {
+  color: #00d4ff;
+}
+.navbar a img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-background img {
+  width: 100px;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-background img {
+    width: 100%;
+  }
+}
+.dropdown {
+  background-color: transparent;
+}
+.dropdown ul {
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+  color: #ebb7ce;
+}
+
+.banner-principal {
+  display: inline-block;
+  border-radius: 20px;
+}
+.banner-principal img {
+  width: 100%;
+  height: 100%;
+}
+.banner-principal a {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 80px;
+  color: #c79797;
+  text-shadow: #ebb7ce;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+.banner-principal a:hover {
+  color: rgba(243, 78, 216, 0.6431372549);
+}
+
+.categoria-corpino {
+  display: inline-block;
+  position: relative;
+  border-radius: 20px;
+}
+.categoria-corpino img {
+  width: 100%;
+  height: 100%;
+}
+.categoria-corpino a {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+.categoria-corpino a:hover {
+  color: #c79797;
+}
+
+.categoria-bombachas {
+  display: inline-block;
+  position: relative;
+  border-radius: 20px;
+}
+.categoria-bombachas img {
+  width: 100%;
+  height: 100%;
+}
+.categoria-bombachas a {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+.categoria-bombachas a:hover {
+  color: #c79797;
+}
+
+footer {
+  bottom: 0;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  bottom: 0;
+}
+footer li img {
+  width: 20px;
+  height: 20px;
+}
+footer p {
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+  color: gray;
+  text-align: end;
+  display: flex;
+  align-content: center;
+  margin: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  width: 190px;
+  height: 254px;
+  padding: 0.1em;
+  background-color: #ddcbd1;
+  overflow: visible;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card img {
+  background-color: #ddcbd1;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s ease;
+  padding: 10px;
+}
+
+.card-info {
+  padding-top: 10%;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ffcaa6;
+}
+
+/*Text*/
+.text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #ff1b6b;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.text-body {
+  font-size: 0.9em;
+  padding-bottom: 10px;
+}
+
+/*Button*/
+.card-button {
+  border: 1px solid #252525;
+  display: flex;
+  padding: 0.3em;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+}
+
+/*Hover*/
+.card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+.card-button:hover {
+  border: 1px solid #ffcaa6;
+  background-color: #ffcaa6;
+}
+
+h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 100px;
+  padding: 30px;
+  color: coral;
+}
+
+main {
+  padding: 30px;
+}
+
+.p-history {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: lighter;
+  text-align: start;
+  color: black;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.img-history {
+  border-radius: 30%;
+  border-style: solid;
+  padding: 10;
+  color: crimson;
+}
+
+/*# sourceMappingURL=estilo.css.map */
