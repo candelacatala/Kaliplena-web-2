@@ -1,14 +1,18 @@
 .p-history {
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: lighter;
-    text-align: start;
+    text-align: center;
     color: black;
     font-size: 20px;
     padding: 15px;
-
+    
 }
 .img-history {
+    display: flex;
+    justify-content: center;
     border-radius: 30%;
+    width: 100px;
+    height: 200px;
     border-style: solid;
     padding: 10;
     color: crimson;
